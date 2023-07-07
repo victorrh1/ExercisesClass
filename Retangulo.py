@@ -30,8 +30,8 @@ altura = float(input('Digite a Altura: '))
         
 
 retangulo = Retangulo(largura, altura)
-print('A largura do retangulo é: ', retangulo.AreaTotal())
-print('A altura do retangulo é: ', retangulo.PerimetroTotal()) 
+print('A Area do retângulo é: ', retangulo.AreaTotal())
+print('O Perímetro do retângulo é: ', retangulo.PerimetroTotal()) 
         
         
         
