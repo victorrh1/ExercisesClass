@@ -17,13 +17,21 @@ class Retangulo:
         perimetro = 2 * (self.largura + self.altura)
         return perimetro
     
-largura = float(input('Digite a largura: '))
-altura = float(input('Digite a altura: '))
+    def AreaTotal(self):
+        area_total = self.calcular_area()
+        return area_total
+    
+    def PerimetroTotal(self):
+        perimetro_total = self.calcular_perimetro()
+        return perimetro_total
+    
+largura = float(input('Digite a Largura: '))
+altura = float(input('Digite a Altura: '))
         
 
 retangulo = Retangulo(largura, altura)
-print('A largura do retangulo é: ', retangulo.largura)
-print('A altura do retangulo é: ', retangulo.altura)    
+print('A largura do retangulo é: ', retangulo.AreaTotal())
+print('A altura do retangulo é: ', retangulo.PerimetroTotal()) 
         
         
         
